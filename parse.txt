@@ -1,0 +1,17 @@
+ class Class1
+    {
+        static void Main()
+        {
+            Console.WriteLine("enter something");
+            var a = Console.ReadLine();
+            int result;
+            int.TryParse(a, out result);
+            if (result == 0)
+                Console.WriteLine("not a number");
+            else
+                Console.WriteLine("is a number");
+            Console.ReadLine();
+
+        }
+     }
+}
